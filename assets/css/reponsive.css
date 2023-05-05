@@ -1,0 +1,159 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #nav{
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav li a{
+        color: #fff;
+        padding:5px 42px;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }  
+
+    #header .search-btn{
+        float: right;
+        padding: 0 21px;
+        height: 100%;
+    }   
+    
+    #header .search-btn:hover{
+        background-color: #f44336;
+    }
+    
+    #header .search-icon{
+        color:#fff;
+        font-size: 20px;
+        line-height: 46px;
+    }
+    
+    #header .mobile-menu-btn{
+        float: right;
+        padding: 0 21px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }   
+    
+    #header .mobile-menu-btn:hover{
+        background-color: #757575;
+    }
+
+    #header .mobile-menu-btn:hover .mobile-menu-icon{
+        color: #000;
+    }
+
+    #header .mobile-menu-icon{
+        color:#fff;
+        font-size: 20px;
+        line-height: 46px;
+    }
+
+    #content .mem{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content img .member-avatar{
+        width: 60%;
+    }
+
+    #content .place-item {
+        float: left;
+        width: 33.33333%;
+        padding: 8px 8px;
+        width: 100%;
+    }
+
+    #content .member-item .member-avatar {
+        width: 254px;
+        margin-top: 15px;
+        border-radius: 4px;
+    }
+
+    #content .content-section {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 64px 16px;
+        margin-bottom: 74px;
+        max-width: 100%;
+    }
+
+    #content .tour-section{
+        background-color: #000;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1450px;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+
+    .contact-info{
+        padding-bottom: 16px;
+    }
+
+    #contact .content-section {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 64px 16px;
+        margin-bottom: 74px;
+        max-width: 100%;
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+
+    .place-buy-btn{
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+        padding: 11px 16px;
+        display: inline-block;
+        margin-top: 15px;
+        border: none;
+        width: 100%;
+        text-align: center;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+}
